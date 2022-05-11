@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Daonguoccacphantucuamang {
+public class daonguoccacphantucuamang {
     public static void main(String[] args) {
         int size;
         int[] array;

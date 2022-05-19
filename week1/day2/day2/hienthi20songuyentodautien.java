@@ -5,7 +5,7 @@ public class hienthi20songuyentodautien {
         System.out.print("Nhập lưu số lượng số nguyên tố cần in ra:(VD:20)");
         int number = scanner.nextInt();
         if (number < 1) {
-            System.out.println("Nhập lại: ");
+            System.out.println("Nhập lại ");
         } else {
             int count = 1;
             int a = 2;

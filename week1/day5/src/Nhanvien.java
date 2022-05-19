@@ -1,4 +1,4 @@
-public class NhanVien {
+class NhanVien {
     private int id;
     private String name;
     private int age;

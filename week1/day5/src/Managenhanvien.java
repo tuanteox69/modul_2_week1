@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ManageNhanVien {
+class ManageNhanVien {
     NhanVien[] nhanViens = new NhanVien[0];
     Scanner scanner = new Scanner(System.in);
 

@@ -1,6 +1,5 @@
-public class Circle extends Geometric {
-    /* mở rộng trường dữ liệu của lớp cha */
-    private double radius;
+public class Circle extends Shape {
+    private double radius = 1.0;
 
     public Circle() {
     }
@@ -9,10 +8,9 @@ public class Circle extends Geometric {
         this.radius = radius;
     }
 
-    public Circle(double radius, String color, String filled) {
+    public Circle(double radius, String color, boolean filled) {
+        super(color, filled);
         this.radius = radius;
-        setColor(color);
-        setFilled(filled);
     }
 
     public double getRadius() {
@@ -31,11 +29,11 @@ public class Circle extends Geometric {
         return 2 * radius * Math.PI;
     }
 
-    public double getDiameter() {
-        return 2 * radius;
-    }
-
-    public void printCircle() {
-        System.out.println("The " + getColor() + " circle is created with the radius is " + radius);
+    @Override
+    public String toString() {
+        return "A Circle with radius="
+                + getRadius()
+                + ", which is a subclass of "
+                + super.toString();
     }
 }

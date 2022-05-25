@@ -3,7 +3,7 @@ package baitap;
 import java.util.Scanner;
 
 public class Main {
-    public  void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Menu");
         System.out.println("1. Tạo phòng mới");
         System.out.println("2. Tạo khách hàng mới:");
@@ -23,7 +23,7 @@ public class Main {
      }
 
 
-    public  void nhapThongTinKhachTro() {
+    public static void nhapThongTinKhachTro() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhập họ tên khách hàng: ");
         String hoTen = scanner.nextLine();

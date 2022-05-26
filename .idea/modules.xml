@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/week_2/week2/day_2/BaiTAp-ResizeAble/BaiTAp-ResizeAble.iml" filepath="$PROJECT_DIR$/week_2/week2/day_2/BaiTAp-ResizeAble/BaiTAp-ResizeAble.iml" />
       <module fileurl="file://$PROJECT_DIR$/week_3/week3/Bai_tap/Bai_tap.iml" filepath="$PROJECT_DIR$/week_3/week3/Bai_tap/Bai_tap.iml" />
       <module fileurl="file://$PROJECT_DIR$/week_2/week2/day_2/ThucHanh-Animal-interface-Edible/ThucHanh-Animal-interface-Edible.iml" filepath="$PROJECT_DIR$/week_2/week2/day_2/ThucHanh-Animal-interface-Edible/ThucHanh-Animal-interface-Edible.iml" />
       <module fileurl="file://$PROJECT_DIR$/week_2/week2/day_2/ThucHanh-Interface-Comparable/ThucHanh-Interface-Comparable.iml" filepath="$PROJECT_DIR$/week_2/week2/day_2/ThucHanh-Interface-Comparable/ThucHanh-Interface-Comparable.iml" />

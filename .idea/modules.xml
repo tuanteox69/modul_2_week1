@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/week_2/week2/day_3/ ThucHanh-Refactoring-BienVaHang/ ThucHanh-Refactoring-BienVaHang.iml" filepath="$PROJECT_DIR$/week_2/week2/day_3/ ThucHanh-Refactoring-BienVaHang/ ThucHanh-Refactoring-BienVaHang.iml" />
       <module fileurl="file://$PROJECT_DIR$/week_2/week2/day_2/BaiTAp-ResizeAble/BaiTAp-ResizeAble.iml" filepath="$PROJECT_DIR$/week_2/week2/day_2/BaiTAp-ResizeAble/BaiTAp-ResizeAble.iml" />
       <module fileurl="file://$PROJECT_DIR$/week_2/week2/day_2/BaiTap-Interface-Colorable/BaiTap-Interface-Colorable.iml" filepath="$PROJECT_DIR$/week_2/week2/day_2/BaiTap-Interface-Colorable/BaiTap-Interface-Colorable.iml" />
       <module fileurl="file://$PROJECT_DIR$/week_3/week3/Bai_tap/Bai_tap.iml" filepath="$PROJECT_DIR$/week_3/week3/Bai_tap/Bai_tap.iml" />
@@ -21,6 +22,8 @@
       <module fileurl="file://$PROJECT_DIR$/week_2/week2/day_4/day_4.iml" filepath="$PROJECT_DIR$/week_2/week2/day_4/day_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/week_2/week2/day_5/day_5.iml" filepath="$PROJECT_DIR$/week_2/week2/day_5/day_5.iml" />
       <module fileurl="file://$PROJECT_DIR$/modul_2.iml" filepath="$PROJECT_DIR$/modul_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week_2/week2/day_3/tachMethod/tachMethod.iml" filepath="$PROJECT_DIR$/week_2/week2/day_3/tachMethod/tachMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week_2/week2/day_3/tach_bien/tach_bien.iml" filepath="$PROJECT_DIR$/week_2/week2/day_3/tach_bien/tach_bien.iml" />
       <module fileurl="file://$PROJECT_DIR$/week1/week1/week1.iml" filepath="$PROJECT_DIR$/week1/week1/week1.iml" />
       <module fileurl="file://$PROJECT_DIR$/week_2/week2/week2.iml" filepath="$PROJECT_DIR$/week_2/week2/week2.iml" />
       <module fileurl="file://$PROJECT_DIR$/week_3/week3/week3.iml" filepath="$PROJECT_DIR$/week_3/week3/week3.iml" />

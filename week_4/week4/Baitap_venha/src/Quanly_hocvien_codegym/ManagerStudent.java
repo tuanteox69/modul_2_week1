@@ -1,5 +1,6 @@
 package Quanly_hocvien_codegym;
 
+import IO_QLHVcodegym.InputOutputStream;
 import IO_QLHVcodegym.ReaderAndWrite;
 
 import java.util.ArrayList;
@@ -15,7 +16,8 @@ public class ManagerStudent {
     public ManagerStudent() {
         classCGs.add(new ClassCG("C0322g1", new Date("22/2/2222"), "Java", 28));
         classCGs.add(new ClassCG("C0322g2", new Date("1/1/2022"), "PHP", 20));
-        students = readerAndWrite.reader(classCGs);
+//        students = readerAndWrite.reader(classCGs);
+        students = InputOutputStream.reader2(classCGs);
     }
 
     public void menu() {
@@ -54,7 +56,7 @@ public class ManagerStudent {
         int choice = Integer.parseInt(scanner.nextLine());
         Student student = new Student(name, age, phone, address, classCGs.get(choice - 1));
         students.add(student);
-        readerAndWrite.write(students);
+        InputOutputStream.write2(students);
     }
 
     public void showAll() {

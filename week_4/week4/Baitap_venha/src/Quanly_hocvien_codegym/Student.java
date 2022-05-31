@@ -1,8 +1,9 @@
 package Quanly_hocvien_codegym;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Student {
+public class Student implements Serializable {
     private String name;
     private int age;
     private String phone;

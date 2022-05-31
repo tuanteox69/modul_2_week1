@@ -2,23 +2,22 @@ package Quanly_hocvien_codegym;
 
 import java.util.Date;
 
-public class Student extends Lop {
+public class Student {
     private String name;
     private int age;
-    private Date birthday;
+    private String phone;
     private String address;
+    private ClassCG classCG;
 
     public Student() {
     }
 
-
-
-    public Student(String classname, int date, int khoa, int slhv, String name, int age, Date birthday, String address) {
-        super(classname, date, khoa, slhv);
+    public Student(String name, int age, String phone, String address, ClassCG classCG) {
         this.name = name;
         this.age = age;
-        this.birthday = birthday;
+        this.phone = phone;
         this.address = address;
+        this.classCG = classCG;
     }
 
     public String getName() {
@@ -37,12 +36,12 @@ public class Student extends Lop {
         this.age = age;
     }
 
-    public Date getBirthday() {
-        return birthday;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getAddress() {
@@ -53,13 +52,26 @@ public class Student extends Lop {
         this.address = address;
     }
 
+    public ClassCG getClassCG() {
+        return classCG;
+    }
+
+    public void setClassCG(ClassCG classCG) {
+        this.classCG = classCG;
+    }
+
+
     @Override
     public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
-                ", birthday=" + birthday +
-                ", address='" + address + '\'' +
-                '}'+super.toString();
+                ", phone='" + phone + '\'' +
+                ", Address='" + address + '\'' +
+                ", classCG=" + classCG.toString() +
+                '}';
+    }
+    public String write() {
+        return name + "," + age + "," + address + "," + classCG.getName();
     }
 }

@@ -53,7 +53,7 @@ public class ManagerStudent {
                         break;
                     case 3:
                     default:
-                        System.out.println("lựa chọn sai");
+                        System.err.println("lựa chọn sai");
                 }
                 break;
             case 6:
@@ -92,7 +92,7 @@ public class ManagerStudent {
 
 
         } catch (NumberFormatException e) {
-            System.out.println("Nhập lại đi sai rồi");
+            System.err.println("Nhập lại đi sai rồi");
             ;
         }
         return new Student(id, name, age, gender, address, mediumscore);
@@ -126,7 +126,7 @@ public class ManagerStudent {
             }
         }
         if (!isExisted) {
-            System.out.println("id không tồn tại");
+            System.err.println("id không tồn tại");
 
         }
     }
@@ -144,7 +144,7 @@ public class ManagerStudent {
         if (student != null) {
             students.remove(student);
         } else {
-            System.out.println("không có id ");
+            System.err.println("không có id ");
         }
     }
     public void write(){

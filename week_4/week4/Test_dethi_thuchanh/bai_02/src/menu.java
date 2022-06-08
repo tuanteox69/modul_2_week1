@@ -1,3 +1,5 @@
+import IO.ValidateChoice;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -18,7 +20,11 @@ public class menu {
         System.out.println("8.Ghi từ file:");
         System.out.println("9.Thoát:");
         System.out.println("Chọn chức năng: ");
+        while (true){
+            try {
         int choice = Integer.parseInt(scanner.nextLine());
+                while (true){
+                    if (ValidateChoice.validatechoicemenu(String.valueOf(choice))){
         switch (choice) {
             case 1:
                 showAll();
@@ -66,7 +72,16 @@ public class menu {
                 System.exit(0);
                 break;
         }
+                        break;
+                    }
+                }
+                break;
+            }catch (Exception e){
+                System.out.println("Vui lòng nhập lại");
+            }
+        }
     }
+
     public Product creatProducts(){
         int id = 0;
         String name = null;

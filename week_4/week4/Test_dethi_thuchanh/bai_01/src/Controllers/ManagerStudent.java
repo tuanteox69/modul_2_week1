@@ -7,7 +7,6 @@ import models.Student;
 
 import java.io.*;
 import java.util.ArrayList;
-
 import java.util.Scanner;
 
 public class ManagerStudent {

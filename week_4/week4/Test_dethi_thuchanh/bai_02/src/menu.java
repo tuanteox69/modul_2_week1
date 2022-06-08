@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class menu {
     Scanner scanner = new Scanner(System.in);
     ArrayList<Product> products = new ArrayList<>();
+
     public void Menu(){
         System.out.println("----Chương Trình Quản lý sản phẩm----");
         System.out.println("1.Xem danh sách sản phẩm:");
@@ -53,6 +54,7 @@ public class menu {
                 break;
             case 6 :
                 giamax();
+                break;
             case 7:
 
                 products=Reader();
@@ -165,7 +167,12 @@ public class menu {
         }
     }
     public void giamax(){
-
+        products.sort(new SortGiamDan());
+        for (Product p:products) {
+            if (p.getGia()==products.get(0).getGia()){
+                System.out.println("san pham co gia lon nhat la"+ p);
+            }
+        }
     }
 
 }
